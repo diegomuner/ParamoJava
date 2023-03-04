@@ -10,12 +10,8 @@ public interface Environment extends Config {
 	@DefaultValue("https://demo.casino")
 	String url();
 	
-
-	String username();
-
-	String password();
 	
-
+//not used
 	@Key("db.hostname")
 	String getDBHostname();
 

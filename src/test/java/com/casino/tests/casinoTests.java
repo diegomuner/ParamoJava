@@ -54,6 +54,14 @@ String password = "SuperSecret123!!";
 		home.checkboxNoBonus.click();
 		home.createAccount.click();
 		Thread.sleep(10000);
+		if(home.SuccessText.isDisplayed()) {
+			System.out.print("Successfully signed up"+ "\n");
+		} else {
+			System.out.print("Captcha was displayed"+ "\n");
+			// captchas can be resolved by automation as well, and there are many different approaches 
+		
+			
+		}
 		
 		//Checks that we signed up successfully
 		

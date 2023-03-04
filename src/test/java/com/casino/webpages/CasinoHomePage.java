@@ -35,6 +35,10 @@ public class CasinoHomePage {
 	@FindBy(css = "button[data-test='control-submit']")
 	 public WebElement createAccount;
 	
+	//Success page
+	@FindBy(className = "notification__title")
+public WebElement SuccessText;
+	
 	
 	//CLASS CONSTRUCTOR
 	public CasinoHomePage(WebDriver driver) {

@@ -10,13 +10,7 @@ public class CasinoHomePage {
 	private WebDriver driver;
 	private WebDriverWait wait;
 
-	//@FindBy(css = "a[href='/about/index.htm']")
-	//@FindBy(linkText = "Agree")
-	//@FindBy(xpath="(//*[@id=\"mainContent\"]/pre/span[16])")
-	//@FindBy(id="submitRegister")
-	
-	
-	
+
 	//LOCATORS//
 	//WELCOME MODAL
 	@FindBy(css = "div.modal__content h3")
@@ -42,9 +36,6 @@ public class CasinoHomePage {
 	 public WebElement createAccount;
 	
 	
-	
-	
-	
 	//CLASS CONSTRUCTOR
 	public CasinoHomePage(WebDriver driver) {
 		
@@ -52,9 +43,7 @@ public class CasinoHomePage {
 		this.setWebdriverWait(wait);
 		// Initialize Elements
 		PageFactory.initElements(driver, this);
-	 
 	}
-	
 	
 	public void completeSignUp() {
 		
@@ -65,11 +54,6 @@ public class CasinoHomePage {
 		createAccount.click();
 		
 	}
-	
-	
-	
-	
-		
 	public WebDriver getDriver() {
 		return driver;
 			}

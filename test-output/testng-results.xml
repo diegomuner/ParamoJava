@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-04T17:15:12 ART" name="Casino" finished-at="2023-03-04T17:15:43 ART" duration-ms="31216">
+  <suite started-at="2023-03-04T17:56:39 ART" name="Default suite" finished-at="2023-03-04T17:57:06 ART" duration-ms="26855">
     <groups>
     </groups>
-    <test started-at="2023-03-04T17:15:12 ART" name="Casino Tests" finished-at="2023-03-04T17:15:43 ART" duration-ms="31216">
+    <test started-at="2023-03-04T17:56:39 ART" name="Default test" finished-at="2023-03-04T17:57:06 ART" duration-ms="26855">
       <class name="com.casino.tests.casinoTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.casino.tests.casinoTests@14379273]" started-at="2023-03-04T17:15:12 ART" name="setUp" finished-at="2023-03-04T17:15:24 ART" duration-ms="12040" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.casino.tests.casinoTests@1c504e66]" started-at="2023-03-04T17:56:39 ART" name="setUp" finished-at="2023-03-04T17:56:47 ART" duration-ms="8209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUp()[pri:0, instance:com.casino.tests.casinoTests@14379273]" started-at="2023-03-04T17:15:24 ART" name="signUp" finished-at="2023-03-04T17:15:43 ART" duration-ms="19064" status="PASS">
+        <test-method signature="signUp()[pri:0, instance:com.casino.tests.casinoTests@1c504e66]" started-at="2023-03-04T17:56:47 ART" name="signUp" finished-at="2023-03-04T17:57:05 ART" duration-ms="18501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.casino.tests.casinoTests@14379273]" started-at="2023-03-04T17:15:43 ART" name="tearDown" finished-at="2023-03-04T17:15:43 ART" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.casino.tests.casinoTests@1c504e66]" started-at="2023-03-04T17:57:05 ART" name="tearDown" finished-at="2023-03-04T17:57:06 ART" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.casino.tests.casinoTests -->
-    </test> <!-- Casino Tests -->
-  </suite> <!-- Casino -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

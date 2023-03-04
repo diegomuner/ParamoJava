@@ -48,7 +48,7 @@ String password = "SuperSecret123!!";
 		home.emailField.sendKeys(email);
 		home.passwordField.sendKeys(password);
 		home.passwordField2.sendKeys(password);
-		//We could potentially also chech the endpoint that the FE hits and build a request with bad data to the endpoint and check that there are also BE validations in place.
+		//We could potentially also check the endpoint that the FE hits and build a request with bad data to the endpoint and check that there are also BE validations in place.
 		home.checkboxOlder.click();
 		Thread.sleep(3000);
 		home.checkboxNoBonus.click();

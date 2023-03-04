@@ -42,11 +42,15 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver",
 				"E:\\Descargas\\chromedriver_win32\\chromedriver.exe");
 		
-			//this.driver = new ChromeDriver(capabilities);
-			this.driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addExtensions(new File("src/main/resources/captchasolver.crx"));
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+		
+			this.driver = new ChromeDriver(capabilities);
+			//this.driver = new ChromeDriver();
 			this.wait = new WebDriverWait(driver, 20);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
 			driver.get(testEnvironment.url());
 			//driver.manage().window().maximize();
 			System.out.println("Webdriver created and added to context");

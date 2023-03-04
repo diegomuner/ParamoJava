@@ -41,7 +41,7 @@ String password = "SuperSecret123!!";
 		//Fill and submit signup modal
 		
 		 //home.completeSignUp();
-		
+
 		//Or we can just do it here in the test
 	    // send keys to send the Strings declared at the top
 		//We could also input wrong information like an email with no @ to validate error messages and that FE validations are in place.
@@ -54,6 +54,10 @@ String password = "SuperSecret123!!";
 		home.checkboxNoBonus.click();
 		home.createAccount.click();
 		Thread.sleep(10000);
+		
+		//Checks that we signed up successfully
+		
+		
 		
 		
 		

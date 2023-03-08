@@ -37,11 +37,6 @@
 			<version>7.3.0</version>
 			<scope>compile</scope>
 		</dependency>
-    <dependency>
-			<groupId>org.aeonbits.owner</groupId>
-			<artifactId>owner</artifactId>
-			<version>1.0.8</version>
-		</dependency>
 		<dependency>
    	 <groupId>com.github.javafaker</groupId>
    	 <artifactId>javafaker</artifactId>
@@ -83,11 +78,11 @@
 					<configuration>
 
 						
-						<!-- Suite testng xml file to consider for test execution -->
+						
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 
-							<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
+						
 						</suiteXmlFiles>
 
 					</configuration>

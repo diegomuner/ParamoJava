@@ -4,7 +4,7 @@
   	<test name="Casino Tests" parallel="classes" thread-count="1">
 
     <classes>
-      <class name="com.casino.tests.casinoTests"/>
+      <class name="com.casino.tests.CasinoTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

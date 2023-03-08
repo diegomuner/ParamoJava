@@ -37,7 +37,7 @@ public class CasinoHomePage {
 	
 	//Success page
 	@FindBy(className = "notification__title")
-public WebElement SuccessText;
+	public WebElement SuccessText;
 	
 	
 	//CLASS CONSTRUCTOR
